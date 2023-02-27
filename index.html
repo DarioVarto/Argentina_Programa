@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<header >
+    <nav>
+        <div class="contenedor_a">
+            <a href="#educacion">Educación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#lenguaje">Lenguaje</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="menu_responsive"><i class="bi bi-list"></i></div>
+    </nav>
+</header>
+
+<main class="presentacion">
+    
+    <img src="foto_perfil.jpg" alt="Imagen de perfil" class="foto_perfil">
+    
+
+    <div class="contenedor_texto_presentacion">
+        <h1>HOLA!</h1>
+        <p>Mi nombre es Ana Olivera y soy programadora con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Bco+, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo.</p>
+    </div>
+</main>
+
+<section>
+    <h2 class="titulo_seccion" id="educacion">Educación</h2>
+        <ul>
+            <li>2022-Ingeniería Informática (cursando actualmente)</li>
+            <li>2020-Programador Java Script. Educación.IT</li>
+            <li>2019-Introducción a la programación.Universidad de La Punta</li>
+            <li>2018-Primeros pasos de desarrollo frontend. Ticmas</li>
+        </ul>
+</section>
+
+<section>
+    <h2 class="titulo_seccion" id="experiencia">Experiencia</h2>
+
+        <h4 class="experiencia_fecha">2021 - Presente- Analista - Programador, Servicios Técnicos IT, Buenos Aires</h4>
+            <ul>
+                <li>Toma de requerimientos con el cliente</li>
+                <li>Análisis de requerimientos y diseño de aplicaciones</li>
+                <li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL</li>
+            </ul>           
+
+        <h4 class="experiencia_fecha">2021 - 2021 Programador Full Stack, Finanbest, Buenos Aires</h4>
+            <ul>
+                <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+                <li>Realización de test de aplicaciones</li>
+                <li>Solución de incidencias</li>
+            </ul>         
+
+        <h4 class="experiencia_fecha">2019 - 2020 Programadora web, Sistemas Informáticos SL, Buenos Aires</h4>
+            <ul>
+                <li>Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP</li>
+                <li>Mantenimiento de aplicaciones web</li>
+                <li>Manejo de datos XML, JSON</li>
+        </ul>        
+</section>
+
+<section>
+    
+    <h2 class="titulo_seccion" id="lenguaje">Lenguajes</h2>
+        <div class="lenguajes">
+            <div>
+                <h4 class="experiencia_fecha">Idiomas</h4>
+                    <ul>
+                        <li>Inglés</li>
+                        <li>Portugues</li>
+                    </ul>
+            </div>
+
+            <div>
+                <h4 class="experiencia_fecha">Lenguajes de programación</h4>
+                    <ul>
+                        <li>Javacript</li>
+                        <li>HTML5 </li>
+                        <li>Typescript</li>
+                        <li>PHP</li>
+                        <li>JSON</li>
+                        <li>MySQL</li>
+                    </ul>
+            </div>
+        </div>
+</section>
+
+<section>
+    <h2 class="titulo_seccion" id="contacto">Contacto</h2>
+        <div class="contenedor_contacto">
+
+            <ul>
+                <li><i class="bi bi-envelope-at-fill"></i>ralph.robertson@example.com</li>
+                <li><i class="bi bi-house-add-fill"></i>3490 Samaritan Dr. Buenos Aires</li>
+                <li><i class="bi bi-telephone-outbound-fill"></i>(669) 751-1919</li>
+                <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/" target='_blank' class="redes"> Instagram</a></li>
+                <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/" target='_blank' class="redes">Facebook</a></li>
+                <li><i class="bi bi-whatsapp"></i><a href="https://web.whatsapp.com/" target='_blank' class="redes">Whatsapp</a></li>
+            </ul>
+        <div>  
+            <button class="css-button-arrow--black" id="btn_contacto">Contactar Ahora</button>
+            <form action="https://formspree.io/f/xvonkvda" method="POST" id="formulario">               
+            </form>
+        
+        </div>
+</div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
