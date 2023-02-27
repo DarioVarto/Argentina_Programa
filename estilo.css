@@ -210,12 +210,13 @@ textarea{
     .form_primera_parte>label{width: 10%;}
 }
 @media(max-width:1000px){
-    *{margin: 0 0.4rem;}
+    *{margin: 0 1rem;}
     .presentacion{
         flex-direction: column;
         height: auto;
         margin-top: 2rem;
     }
+    .contenedor_texto_presentacion{margin-bottom: 4rem;}
     .contenedor_a{display: none;}
     nav{
         justify-content: center;
@@ -232,6 +233,20 @@ textarea{
         padding-left: 0.5rem;}
         .form_primera_parte>input{width: 60%;}
         .lenguajes{flex-direction: column;}
-    
-    
+    .a_responsive{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(157, 192, 139);
+        height: 30vh;
+        width: 100%;
+        line-height: 4rem;
+        align-items: center;
+    }
+    .ancla_responsive{
+        text-decoration: none;
+        font-size: 2rem;
+        color: black;
+        font-weight: bold;
+        
+    } 
 }

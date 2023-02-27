@@ -33,3 +33,29 @@ const form=()=>{
 }
 
 btn_contacto.addEventListener('click',form)
+
+let menu_responsive=document.getElementById("menu_responsive")
+
+let ver_menu=document.getElementById("ver_menu")
+
+let mostrar=false
+
+
+const mostrar_menu = () => {
+
+mostrar = !mostrar
+
+
+   if(mostrar){ 
+    ver_menu.innerHTML=`
+    <div class="a_responsive">
+        <a href="#educacion" class="ancla_responsive">Educación</a>
+        <a href="#experiencia" class="ancla_responsive">Experiencia</a>
+        <a href="#lenguaje" class="ancla_responsive">Lenguaje</a>
+        <a href="#contacto" class="ancla_responsive">Contacto</a>
+    </div>`}else{ver_menu.innerHTML=""}
+    
+
+}
+
+menu_responsive.addEventListener('click',mostrar_menu)
